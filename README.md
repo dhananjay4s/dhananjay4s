@@ -72,65 +72,74 @@ Right now I'm deepening my understanding of **system design**, **PostgreSQL**, a
 
 ### &nbsp;Projects
 
-<div align="center">
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-[![Sajha Samasya](https://github-readme-stats.vercel.app/api/pin/?username=dhananjaysah46&repo=sajha-samasya-django&bg_color=0f0e17&title_color=818cf8&icon_color=f87171&text_color=94a3b8&border_color=1e1b4b)](https://github.com/dhananjaysah46/sajha-samasya-django)
-&nbsp;
-[![TU Doc Assistant](https://github-readme-stats.vercel.app/api/pin/?username=dhananjaysah46&repo=tu-doc-assistant-django&bg_color=0f0e17&title_color=818cf8&icon_color=f87171&text_color=94a3b8&border_color=1e1b4b)](https://github.com/dhananjaysah46/tu-doc-assistant-django)
+**🏙️ [Sajha Samasya](https://github.com/dhananjaysah46/sajha-samasya-django)**
+`Django` `DRF` `Python`
 
-[![Expense Management](https://github-readme-stats.vercel.app/api/pin/?username=dhananjaysah46&repo=expense-management-system&bg_color=0f0e17&title_color=818cf8&icon_color=f87171&text_color=94a3b8&border_color=1e1b4b)](https://github.com/dhananjaysah46/expense-management-system)
-&nbsp;
-[![Inventory System](https://github-readme-stats.vercel.app/api/pin/?username=dhananjaysah46&repo=inventory_system&bg_color=0f0e17&title_color=818cf8&icon_color=f87171&text_color=94a3b8&border_color=1e1b4b)](https://github.com/dhananjaysah46/inventory_system)
+Civic issue-reporting platform — citizens submit, track & manage community problems with role-based dashboards and a REST API backend.
 
-[![Stock Management](https://github-readme-stats.vercel.app/api/pin/?username=dhananjaysah46&repo=Stock-Management-System&bg_color=0f0e17&title_color=818cf8&icon_color=f87171&text_color=94a3b8&border_color=1e1b4b)](https://github.com/dhananjaysah46/Stock-Management-System)
-&nbsp;
-[![Portfolio Website](https://github-readme-stats.vercel.app/api/pin/?username=dhananjaysah46&repo=Portfolio-website&bg_color=0f0e17&title_color=818cf8&icon_color=f87171&text_color=94a3b8&border_color=1e1b4b)](https://github.com/dhananjaysah46/Portfolio-website)
+</td>
+<td width="50%" valign="top">
 
-</div>
+**🎓 [TU Doc Assistant](https://github.com/dhananjaysah46/tu-doc-assistant-django)**
+`Django` `DRF` `Python`
+
+Academic doc assistant for Tribhuvan University — Django backend for navigating official notices and university documents.
+
+</td>
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td width="50%" valign="top">
+
+**💸 [Expense Management](https://github.com/dhananjaysah46/expense-management-system)**
+`Django` `DRF` `SQLite`
+
+Expense tracker with JWT auth, admin/user role separation, and clean REST APIs built with Django best practices.
+
+</td>
+<td width="50%" valign="top">
+
+**🏪 [Inventory System](https://github.com/dhananjaysah46/inventory_system)**
+`HTML` `CSS` `JavaScript`
+
+Browser-based inventory UI for tracking stock and managing items with smooth interaction design.
+
+</td>
+</tr>
+<tr><td colspan="2"><br/></td></tr>
+<tr>
+<td width="50%" valign="top">
+
+**📦 [Stock Management System](https://github.com/dhananjaysah46/Stock-Management-System)**
+`Python` `CLI`
+
+Console-based inventory CLI with dictionary-driven CRUD — clean showcase of core Python logic.
+
+</td>
+<td width="50%" valign="top">
+
+**🌐 [Portfolio Website](https://github.com/dhananjaysah46/Portfolio-website)**
+`HTML` `CSS` `JavaScript`
+
+Responsive personal portfolio with semantic HTML, smooth UX, and consistent branding.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### &nbsp;Contribution Snake
+### &nbsp;Contribution Graph
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhananjaysah46/dhananjaysah46/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhananjaysah46/dhananjaysah46/output/github-contribution-grid-snake.svg"/>
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/dhananjaysah46/dhananjaysah46/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</picture>
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dhananjaysah46&bg_color=0f0e17&color=818cf8&line=4f46e5&point=f87171&area=true&area_color=1e1b4b&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
-
-<details>
-<summary>⚙️ Enable snake animation</summary>
-
-Create `.github/workflows/snake.yml` in your profile repo:
-
-```yaml
-name: Generate Snake
-on:
-  schedule: [{ cron: "0 0 * * *" }]
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: dhananjaysah46
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
 
 ---
 
